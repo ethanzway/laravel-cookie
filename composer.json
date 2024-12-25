@@ -1,0 +1,33 @@
+{
+    "name": "ethanzway/laravel-cookie",
+    "keywords": ["laravel", "cookie"],
+    "description": "Laravel Cookie Provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/contracts": "5.5.*",
+        "illuminate/support": "5.5.*",
+        "symfony/http-foundation": "~3.3",
+        "symfony/http-kernel": "~3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethanzway\\Cookie\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ethanzway\\Cookie\\CookieServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
